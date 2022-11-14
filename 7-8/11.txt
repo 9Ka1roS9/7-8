@@ -1,0 +1,5 @@
+stroka = input()
+if len(stroka) > 10:
+    print(stroka[:6])
+else:
+    print(stroka.ljust(12, 'o'))

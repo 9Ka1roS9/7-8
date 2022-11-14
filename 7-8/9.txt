@@ -1,0 +1,9 @@
+s1 = 'fff '
+s2 = 'fffff '
+ 
+diff = abs(len(s1) - len(s2))
+ 
+if len(s1) > len(s2):
+    print(s1 * diff)
+else:
+    print(s2 * diff)
